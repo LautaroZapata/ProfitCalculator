@@ -15,7 +15,7 @@ let precioFinalProfit = document.getElementById('precioFinalProfit')
 function calcular () {
     let precioUsa = parseInt(input.value) + 26;
     console.log(precioUsa);
-    let precioTotalProfit = precioUsa * 1.40;
+    let precioTotalProfit = precioUsa * 1.30;
     console.log(precioTotalProfit);
     let precioPesos = precioTotalProfit * 40;
     console.log(precioPesos);
