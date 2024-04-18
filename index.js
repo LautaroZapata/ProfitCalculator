@@ -17,7 +17,7 @@ function calcular () {
     console.log(precioUsa);
     let precioTotalProfit = precioUsa * 1.30;
     console.log(precioTotalProfit);
-    let precioPesos = precioTotalProfit * 40;
+    let precioPesos = precioTotalProfit * 39.5;
     console.log(precioPesos);
     precioFinalProfit.innerHTML = `VALOR TOTAL PESOS 30% <b class="totalPesos">$${Math.round(precioPesos)}</b>`;
 }
