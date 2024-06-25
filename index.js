@@ -14,12 +14,9 @@ let precioFinalProfit = document.getElementById('precioFinalProfit')
 
 function calcular () {
     let precioUsa = parseInt(input.value) + 26;
-    console.log(precioUsa);
-    let precioTotalProfit = precioUsa * 1.30;
-    console.log(precioTotalProfit);
+    let precioTotalProfit = precioUsa * 1.40;
     let precioPesos = precioTotalProfit * 39.5;
-    console.log(precioPesos);
-    precioFinalProfit.innerHTML = `VALOR TOTAL PESOS 30% <b class="totalPesos">$${Math.round(precioPesos)}</b>`;
+    precioFinalProfit.innerHTML = `VALOR TOTAL PESOS 40% <b class="totalPesos">$${Math.round(precioPesos)}</b> VALOR TOTAL EN DOLARES = <b class="totalPesos">$${precioTotalProfit}`;
 }
 
 
